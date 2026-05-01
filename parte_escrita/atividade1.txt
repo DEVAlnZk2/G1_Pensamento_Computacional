@@ -1,0 +1,6 @@
+1) Identifique as entradas e saídas do sistema:
+
+Teremos como entrada, os 3 botões (para realizar os funcionamentos do LED) e o 
+potenciômetro (para regular a intensidade da luz). 
+Enquanto as saídas, teremos o led e a iluminação (resultado da interação do botão/potenciômetro em relação ao LED), 
+ativando uma sequência ou mudando sua luminosidade.
