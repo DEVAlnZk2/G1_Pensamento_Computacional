@@ -1,0 +1,6 @@
+3) Apresente as regras de funcionamento a serem implementadas
+Quando for pressionado o botão 1: A cor do LED RGB irá fazer uma transição da cor verde ou vermelha, um tempo de 2 segundos, irá alterar para cor amarela. 
+
+Quando for pressionado o botão 2: A cor do LED RGB irá fazer uma transição iniciando pela cor verde ou amarela, um intervalo de 2 segundos, irá alterar para cor vermelha.
+
+Quando for pressionado o botão 3: O LED RGB irá se apagar por completo, desligando-se por completo (sem nenhuma cor), depois de 5 segundos, o LED RGB irá ligar novamente para o estado normal (cor verde)
