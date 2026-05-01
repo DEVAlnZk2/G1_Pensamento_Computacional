@@ -1,0 +1,10 @@
+2) Apresente todos os componentes do sistema e para que eles servem
+LED RGB: Meio luminoso que resulta de um código (definição de pinos, definição de cores e definição de luminosidade).
+
+Botão 1: Ativação do modo de atenção da sinalização (definir o LED RGB da cor atual para cor amarela).
+
+Botão 2: Ativação do modo crítico da sinalização (definir o LED RGB da cor atual para cor vermelha).
+
+Botão 3: Desativação e “reset” do LED RGB (definir o LED RGB da cor atual para baixa/desligada), logo após, ativa o LED RGB para cor verde.
+
+Potenciômetro: Regulador de iluminação, responsável por aumentar ou diminuir a luz produzida pelo LED RGB.
