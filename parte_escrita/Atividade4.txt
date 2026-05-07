@@ -36,4 +36,8 @@ Iniciar
 Fim
 
 Explicação:
-Nesse sentido, podemos dizer que em cada função, os 3 primeiros IFs estarão ligados no quesito de definir os botões, nos outros 3 IFs estarão sendo relacionados com a mudança das cores (verde para amarelo/amarelo para vermelho), o IF relacionado ao botão 3 servirá para apagar o LED RGB e em 0,5 segundos (500 milésimos), retornar a luz verde, no sentido de reiniciar o progresso. 
+Nesse sentido, podemos dizer que em cada função, os 3 primeiros IFs estarão ligados no 
+quesito de definir os botões, nos outros 3 IFs estarão sendo relacionados com a mudança 
+das cores (verde para amarelo/amarelo para vermelho), o IF relacionado ao botão 3 servirá 
+para apagar o LED RGB e em 0,5 segundos (500 milésimos), retornar a luz verde, no sentido 
+de reiniciar o progresso. 
