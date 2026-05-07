@@ -8,7 +8,8 @@ Iniciar
   ler botao3
   ler potenciometro1
   mapear potenciometro1 em 0 a 255 
-#definindo os modos dos botões
+
+#Definindo os modos dos botões
   Se botao1 = 1:
    definir modo = 1
   
@@ -18,6 +19,7 @@ Iniciar
   Se botao3 = 1:
   	definir modo = 3
 
+#Definindo as cores e o botão de "reset"
  Se modo == 0:
 	 definir led_rgb verde
 
