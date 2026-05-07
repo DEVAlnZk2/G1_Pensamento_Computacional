@@ -8,22 +8,33 @@ Iniciar
   ler botao3
   ler potenciometro1
   mapear potenciometro1 em 0 a 255 
-
+#definindo os modos dos botões
   Se botao1 = 1:
-    esperar 2 segundos
-    definir led_rgb amarelo
-
+   definir modo = 1
+  
   Se botao2 = 1:
-	  esperar 2 segundos
-	  definir led_rgb vermelho
-
-  Se botao3 = 1:
-	  definir led_rgb baixo
-	  esperar 5 segundos
-	  definir led_rgb verde
-Fim
+    definir modo = 2
 	
-Nesse sentido, podemos dizer que em cada função, os 2 primeiros IFs estarão ligados no quesito de mudança 
-de cor (verde para amarelo/verde para vermelho/amarelo para vermelho), caso seja necessário para 
-reiniciar o sistema, o IF relacionado ao botão 3 servirá para apagar o LED RGB e em 5 segundos, 
-retornar a luz verde, no sentido de reiniciar o progresso. 
+  Se botao3 = 1:
+  	definir modo = 3
+
+ Se modo == 0:
+	 definir led_rgb verde
+
+  Se modo == 1:
+	  definir led_rgb amarelo
+
+  Se modo == 2:
+	 definir led_rgb vermelho
+
+  Se modo == 3:
+	 definir led_rgb baixo
+	 aguardar 500 milesimos
+	 definir modo == 0
+Fim
+
+Explicação:
+Nesse sentido, podemos dizer que em cada função, os 3 primeiros IFs estarão ligados no quesito de definir os botões, 
+Nos outros 3 IFs estarão sendo relacionados com a mudança das cores (verde para amarelo/amarelo para vermelho),
+o IF relacionado ao botão 3 servirá para apagar o LED RGB e em 0,5 segundos (500 milésimos), retornar a luz verde, 
+no sentido de reiniciar o progresso. 
