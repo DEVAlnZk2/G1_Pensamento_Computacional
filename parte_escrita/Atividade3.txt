@@ -1,6 +1,12 @@
 3) Apresente as regras de funcionamento a serem implementadas
-Quando for pressionado o botão 1: A cor do LED RGB irá fazer uma transição da cor verde ou vermelha para cor amarela. 
+- Quando for pressionado o botão 1: A cor do LED RGB irá fazer uma transição da cor verde ou vermelha para cor amarela. 
 
-Quando for pressionado o botão 2: A cor do LED RGB irá fazer uma transição iniciando pela cor verde ou amarela para cor vermelha.
+- Quando for pressionado o botão 2: A cor do LED RGB irá fazer uma transição iniciando pela cor verde ou amarela para cor vermelha.
 
-Quando for pressionado o botão 3: O LED RGB irá se apagar por completo, desligando-se por completo (sem nenhuma cor), depois de 0.5 segundos, o LED RGB irá ligar novamente para o estado normal (cor verde)
+- Quando for pressionado o botão 3: O LED RGB irá se apagar por completo, desligando-se por completo (sem nenhuma cor), depois de 0.5 segundos, o LED RGB irá ligar novamente para o estado normal (cor verde)
+
+- Quando for pressionado algum botão, somente 1 cor irá se ligar
+
+- O potenciômetro irá definir o brilho, de acordo com a posição dele (0 a 255)
+
+- O sistema irá começar com a cor verde (estado inicial/normal)
